@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/textview_recyclerview_item_recent_record_time"
+        android:gravity="center"
+        android:background="@drawable/recangle"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/textview_recyclerview_item_recent_record_tac"
+        android:gravity="center"
+        android:background="@drawable/recangle"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/textview_recyclerview_item_recent_record_pci"
+        android:gravity="center"
+        android:background="@drawable/recangle"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/textview_recyclerview_item_recent_record_enbid"
+        android:gravity="center"
+        android:background="@drawable/recangle"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/textview_recyclerview_item_recent_record_enbcellid"
+        android:gravity="center"
+        android:background="@drawable/recangle"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/textview_recyclerview_item_recent_record_rsrp"
+        android:gravity="center"
+        android:background="@drawable/recangle"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/textview_recyclerview_item_recent_record_sinr"
+        android:gravity="center"
+        android:background="@drawable/recangle"/>
+
+</LinearLayout>

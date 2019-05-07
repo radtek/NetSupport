@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/recangle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_recyclerview_item_ltebasestationcell_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:hint="武汉"/>
+
+        <TextView
+            android:id="@+id/textview_recyclerview_item_ltebasestationcell_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+
+            android:gravity="center"
+            android:hint="3G实验室-HLW-1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_recyclerview_item_ltebasestationcell_eci"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:hint="123456-1"/>
+
+        <TextView
+            android:id="@+id/textview_recyclerview_item_ltebasestationcell_tac"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:hint="12345"/>
+
+        <TextView
+            android:id="@+id/textview_recyclerview_item_ltebasestationcell_pci"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:hint="123"/>
+
+        <TextView
+            android:id="@+id/textview_recyclerview_item_ltebasestationcell_earfcn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:hint="38400"/>
+    </LinearLayout>
+</LinearLayout>

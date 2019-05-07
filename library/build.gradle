@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 3
+        versionName '1.2'
+    }
+
+
+    //库项目不生成 BuildConfig
+    libraryVariants.all {
+        it.generateBuildConfig.enabled = false
+    }
+}
+
+
+dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
+}

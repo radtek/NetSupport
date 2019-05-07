@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">优易</string>
+    <string name="press_again_exit">再按一次退出</string>
+    <string name="baiduMapIdOffice">WERuHBNld0eFO9EjVvmnmjOyaN1xLl57</string>
+    <string name="baiduMapIdHome">Q4ZVG0EPmnGobZYGoFNOXOYWpQ7Dtfuj</string>
+    <string name="lteBasestationDatabaseTemplate">4G工参(模板).csv</string>
+    <string name="lteBasestationDataCustomTemplate">规划自定义(模板).csv</string>
+    <string name="lteBasestationDataTrackTemplate">测试log轨迹(模板).csv</string>
+    <string name="lteBasestationDataGridTemplate">栅格数据(模板).csv</string>
+    <string name="autoUpdateJsonUrl">https://raw.githubusercontent.com/wangsen1110/NetSupport/master/app/release/version.json</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="newerVersionDownloadUrl">https://www.pgyer.com/wakesen</string>
+</resources>
