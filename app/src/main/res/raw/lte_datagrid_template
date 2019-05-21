@@ -1,0 +1,3 @@
+region_name      ,grid_id          ,middle-lon,middle-lat,grid_leftbottom_longitude,grid_leftbottom_latitude ,grid_lefttop_longitude  ,grid_lefttop_latitude   ,grid_righttop_longitude ,grid_righttop_latitude  ,grid_rightbottom_longitude      ,grid_rightbottom_latitude,RSRP,rsrp_sample_count      ,eutrancell_name_1
+Îäºº,49RGP-767-999-100,113.889346,30.70027352,113.8888111,30.69983452,113.888838,30.70073573,113.8898809,30.70071251,113.889854,30.6998113,-101,12,¶«Î÷ºþ»Ø×©³§-HLH-1
+Îäºº,49RGP-792-997-100,113.9153641,30.69788795,113.9148291,30.69744907,113.9148562,30.69835026,113.9158991,30.69832683,113.915872,30.69742564,-100.18,131,¶«Î÷ºþé¿Ú´ó¶Ó­HLH-1

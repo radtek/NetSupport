@@ -111,6 +111,10 @@ public class FileUtils {
             initFile(App.getContext().getResources().openRawResource(R.raw.lte_datatrack_template),
                     FileUtils.getAppPath() + lteBasestationDataTrackTemplate);
         }
+        if (!FileUtils.isFileExist(FileUtils.getAppPath() + lteBasestationDataGridTemplate)) {
+            initFile(App.getContext().getResources().openRawResource(R.raw.lte_datagrid_template),
+                    FileUtils.getAppPath() + lteBasestationDataGridTemplate);
+        }
 
         return 0;
     }
@@ -123,6 +127,9 @@ public class FileUtils {
     }
     public static String getLteInputFiletrack() {
         return FileUtils.getAppPath() + lteBasestationDataTrackTemplate;
+    }
+    public static String getLteInputFileGrid() {
+        return FileUtils.getAppPath() + lteBasestationDataGridTemplate;
     }
 
     public static boolean initFile(InputStream fileInputStream, String newPath$Name) {

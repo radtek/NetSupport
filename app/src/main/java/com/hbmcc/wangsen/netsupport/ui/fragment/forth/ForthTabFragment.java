@@ -13,6 +13,7 @@ import com.hbmcc.wangsen.netsupport.event.TabSelectedEvent;
 import com.hbmcc.wangsen.netsupport.ui.fragment.MainFragment;
 import com.hbmcc.wangsen.netsupport.ui.fragment.forth.basestationdatabase.BasestationDatabaseFragment;
 import com.hbmcc.wangsen.netsupport.ui.fragment.forth.basestationdatabase.CustomBasestationDatabaseFragment;
+import com.hbmcc.wangsen.netsupport.ui.fragment.forth.basestationdatabase.GridBasestationDatabaseFragment;
 import com.hbmcc.wangsen.netsupport.ui.fragment.forth.basestationdatabase.TrackBasestationDatabaseFragment;
 
 import org.greenrobot.eventbus.Subscribe;
@@ -24,7 +25,7 @@ public class ForthTabFragment extends BaseMainFragment {
     private Button btnFragmentForthTabAbout;
     private Button btnFragmentForthTabBasestationDataCustom;
     private Button btnFragmentForthTabBasestationDataTrack;
-    private Button btnFragmentForthTabBasestationDataArea;
+    private Button btnFragmentForthTabBasestationDataGrid;
 
 
 
@@ -53,7 +54,7 @@ public class ForthTabFragment extends BaseMainFragment {
         btnFragmentForthTabAbout = view.findViewById(R.id.btn_fragment_forth_tab_about);
         btnFragmentForthTabBasestationDataCustom = view.findViewById(R.id.btn_fragment_forth_tab_basestation_data_custom);
         btnFragmentForthTabBasestationDataTrack = view.findViewById(R.id.btn_fragment_forth_tab_basestation_data_track);
-        btnFragmentForthTabBasestationDataArea = view.findViewById(R.id.btn_fragment_forth_tab_basestation_data_area);
+        btnFragmentForthTabBasestationDataGrid = view.findViewById(R.id.btn_fragment_forth_tab_basestation_data_area);
 
     }
 
@@ -88,6 +89,14 @@ public class ForthTabFragment extends BaseMainFragment {
             public void onClick(View v) {
                 ((MainFragment)getParentFragment()).startBrotherFragment
                         (TrackBasestationDatabaseFragment.newInstance("测试log轨迹数据"));
+
+            }
+        });
+        btnFragmentForthTabBasestationDataGrid.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                ((MainFragment)getParentFragment()).startBrotherFragment
+                        (GridBasestationDatabaseFragment.newInstance("栅格数据"));
 
             }
         });

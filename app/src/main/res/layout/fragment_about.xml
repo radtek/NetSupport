@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="优易说明书及进群渠道扫码" />
+            android:text="操作说明书支持微信扫码 直接预览" />
 
         <ImageView
             android:id="@+id/qr_youyigoutongqun"
@@ -64,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="新版本下载扫码" />
+            android:text="新版本点击或扫码均可下载" />
 
         <ImageView
             android:id="@+id/imageview_updateurl"
